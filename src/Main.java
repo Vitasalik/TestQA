@@ -11,9 +11,5 @@ public class Main {
         public void PrintText(String text){
             System.out.println(text);
         }
-
-        public void PrintInt(int text){
-            System.out.println(text);
-        }
     }
 }
