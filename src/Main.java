@@ -3,7 +3,7 @@ public class Main {
         var tm = new Print();
 
         tm.PrintText("Hi");
-        tm.PrintInt(865);
+        tm.DoublePrint("Здарова");
     }
 
     public static class Print{
@@ -14,6 +14,11 @@ public class Main {
 
         public void PrintInt(int text){
             System.out.println(text);
+        }
+
+        public void DoublePrint(String text){
+            PrintText(text);
+            PrintText(text);
         }
     }
 }
